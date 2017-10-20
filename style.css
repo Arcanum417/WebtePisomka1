@@ -1,0 +1,30 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-style: solid;
+}
+
+li.menu {
+    display: inline;
+    float: left;
+    padding: 0px;
+
+}
+
+li a {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #53c514;
+}
+a#active {
+    background-color: #53c514;
+}
